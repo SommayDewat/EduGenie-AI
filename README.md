@@ -160,7 +160,7 @@ python -m streamlit run app.py
 
 ### MCQ Generator
 
-![MCQ](Screenshots/mcq.png)
+![MCQ](Screenshots/mcqs.png)
 
 ### Chat With PDF
 
