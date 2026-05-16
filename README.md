@@ -140,31 +140,31 @@ python -m streamlit run app.py
 
 ### Sidebar
 
-![Sidebar](screenshots/sidebar.png)
+![Sidebar](Screenshots/sidebar.png)
 
 ### Dark UI
 
-![Dark UI](screenshots/dark-ui.png)
+![Dark UI](Screenshots/dark-ui.png)
 
 ### Login Page
 
-![Login](screenshots/login-page.png)
+![Login](Screenshots/login-page.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
 
 ### AI Summary
 
-![Summary](screenshots/summary.png)
+![Summary](Screenshots/summary.png)
 
 ### MCQ Generator
 
-![MCQ](screenshots/mcq.png)
+![MCQ](Screenshots/mcq.png)
 
 ### Chat With PDF
 
-![Chatbot](screenshots/chatbot.png)
+![Chatbot](Screenshots/chatbot.png)
 
 ---
 
