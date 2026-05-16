@@ -144,7 +144,7 @@ python -m streamlit run app.py
 
 ### Dark UI
 
-![Dark UI](Screenshots/dark-ui.png)
+![Dark UI](Screenshots/dark-UI.png)
 
 ### Login Page
 
