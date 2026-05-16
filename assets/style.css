@@ -1,0 +1,27 @@
+.main {
+    background-color: #0E1117;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #00FFAA;
+}
+
+.stButton>button {
+    background-color: #00FFAA;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.stTextInput>div>div>input {
+    border-radius: 10px;
+}
+
+.stFileUploader {
+    border: 2px dashed #00FFAA;
+    border-radius: 10px;
+    padding: 10px;
+}
