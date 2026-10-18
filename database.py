@@ -42,13 +42,17 @@ conn.commit()
 
 # REGISTER USER
 def register_user(username, password):
+    try:
+        cursor.execute(
+            "INSERT INTO users (username, password) VALUES (?, ?)",
+            (username, password)
+        )
+        conn.commit()
+        return True
 
-    cursor.execute(
-        "INSERT INTO users (username, password) VALUES (?, ?)",
-        (username, password)
-    )
-
-    conn.commit()
+    except sqlite3.IntegrityError:
+        conn.rollback()
+        return False
 
 
 # LOGIN USER

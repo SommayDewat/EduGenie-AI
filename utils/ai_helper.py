@@ -8,15 +8,17 @@ load_dotenv()
 
 api_key = os.getenv("GOOGLE_API_KEY")
 
-print("API KEY:", api_key)
+if not api_key:
+    raise ValueError(
+        "GOOGLE_API_KEY missing. Check your .env file."
+    )
 
 genai.configure(api_key=api_key)
 
 # GEMINI MODEL
 model = genai.GenerativeModel(
-    "models/gemini-2.5-flash"
+    "gemini-3.8-flash"
 )
-
 
 # SUMMARY FUNCTION
 def generate_summary(text):

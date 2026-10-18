@@ -95,9 +95,10 @@ if choice == "Register":
 
     if st.button("Register"):
 
-        register_user(new_user, new_password)
-
-        st.success("✅ Account Created Successfully")
+        if register_user(new_user, new_password):
+            st.success("✅ Account Created Successfully! Please log in.")
+        else:
+            st.error("Username already exists. Please choose another username.")
 
 
 # LOGIN
